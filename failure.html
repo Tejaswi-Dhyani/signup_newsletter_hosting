@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failure</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+    }
+        .fail{
+        width: 100%;
+        height: 300px;
+        background-color: rgb(209, 204, 204);
+        text-align: center;
+    }
+    h1{
+        font-weight: 900;
+        padding: 30px 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="fail">
+        <h1>Failure!</h1>  
+        <h2>🙁 There was an error with signing up, Please try again!</h2><br><br>
+        <form action="/failure" method="post">
+            <button class="btn btn-warning btn-lg" type="submit" name="button" >Try Again!</button>
+        </form>
+    </div>
+  
+</body>
+</html>
